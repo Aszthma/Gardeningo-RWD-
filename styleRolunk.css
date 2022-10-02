@@ -1,0 +1,270 @@
+body{ 
+    background: url(kesztyu.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    /*background:linear-gradient(#40826d, white);*/
+}
+
+@media(min-width: 426px){
+
+    .nav{
+        display: flex;
+        width: 100%;
+        background-color: rgba(86, 86, 86, 0.5);
+        box-sizing: border-box;
+        height: 60px;
+    }
+    
+    .contact{
+        display: flex;
+        margin: auto;
+        flex: 0 1 500px;
+        border-right: 1px solid white;
+        height: 100%;
+    }
+    
+    .tel{
+        display: flex;
+        flex: 1 1 40%;
+        color: white;
+        height: 100%;
+        border-left: 1px solid white;
+        transition:0.5s all linear;
+    }
+    
+    .mail{
+        display: flex;
+        flex: 1 1 60%;
+        color: white;
+        border-left: 1px solid white;
+        height: 100%;
+        transition:0.5s all linear;
+    }
+    
+    .content{
+        align-self: center;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .tel:hover{
+        color: black;
+        background-color: white;
+    }
+    
+    .mail:hover{
+        color: black;
+        background-color: white;
+    }
+    
+    i {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        display: inline-block;
+        
+    }
+    
+    #home{
+        border: 1px solid gray;
+        background-color: rgba(24, 24, 24, 0.5);
+        padding: 10px;
+        margin: 6px;
+        color: white;
+        transition:0.5s all linear;
+    }
+    
+    #home:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    #search{
+        border: 1px solid gray;
+        background-color: rgba(24, 24, 24, 0.5);
+        padding: 10px;
+        margin: 6px;
+        color: white;
+        transition:0.5s all linear;
+    }
+    
+    #search:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin: 5% 10% 0px 10%;
+    }
+
+    .about-text{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    .greeting{
+        margin:2.5%;
+    }
+    .text{
+        margin: 5%;
+    }
+
+    .ref{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .munka{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+    
+    .kepek{
+        border: 1px solid white;
+        margin: 0 30px 30px 30px;
+        border-radius: 10px;
+    }
+    
+}
+
+@media(max-width: 426px){
+
+    .nav{
+        display: flex;
+        width: 100%;
+        background-color: rgba(86, 86, 86, 0.5);
+        box-sizing: border-box;
+        height: 60px;
+    }
+    
+    .contact{
+        display: flex;
+        margin: auto;
+        flex: 0 1 500px;
+        /*border-right: 1px solid white;*/
+        height: 100%;
+    }
+    
+    .tel{
+        display: none;
+        flex: 1 1 40%;
+        color: white;
+        height: 100%;
+        /*border-left: 1px solid white;*/
+        transition:0.5s all linear;
+    }
+    
+    .mail{
+        display: flex;
+        flex: 1 1 60%;
+        color: white;
+        /*border-left: 1px solid white;*/
+        height: 100%;
+        transition:0.5s all linear;
+    }
+    
+    .content{
+        align-self: center;
+        text-align: center;
+        margin: auto;
+    }
+    
+    /*.tel:hover{
+        color: black;
+        background-color: white;
+    }
+    
+    .mail:hover{
+        color: black;
+        background-color: white;
+    }*/
+    
+    i {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        display: inline-block;
+        
+    }
+    
+    #home{
+        border: 1px solid gray;
+        background-color: rgba(24, 24, 24, 0.5);
+        padding: 10px;
+        margin: 6px;
+        color: white;
+        transition:0.5s all linear;
+    }
+    
+    #home:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    #search{
+        border: 1px solid gray;
+        background-color: rgba(24, 24, 24, 0.5);
+        padding: 10px;
+        margin: 6px;
+        color: white;
+        transition:0.5s all linear;
+    }
+    
+    #search:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin: 5% 10% 0px 10%;
+        width: 80%;
+    }
+
+    .about-text{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    .greeting{
+        margin:2.5%;
+        font-size: 20px;
+    }
+    .text{
+        margin: 5%;
+    }
+
+    .ref{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .munka{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .kepek{
+        border: 1px solid white;
+        margin: 5% 10% 10% 10%;
+        border-radius: 10px;
+        width: 80%;
+    }
+}
+

@@ -1,0 +1,332 @@
+
+    body{ 
+        background: url(kert.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins';
+}
+@media(min-width: 426px){
+
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: rgba(86, 86, 86, 0.5);
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.contact{
+    display: flex;
+    margin: auto;
+    flex: 0 1 500px;
+    border-right: 1px solid white;
+    height: 100%;
+}
+
+.tel{
+    display: flex;
+    flex: 1 1 40%;
+    color: white;
+    height: 100%;
+    border-left: 1px solid white;
+    transition:0.5s all linear;
+}
+
+.mail{
+    display: flex;
+    flex: 1 1 60%;
+    color: white;
+    border-left: 1px solid white;
+    height: 100%;
+    transition:0.5s all linear;
+}
+
+.content{
+    align-self: center;
+    text-align: center;
+    margin: auto;
+}
+
+.tel:hover{
+    color: black;
+    background-color: white;
+}
+
+.mail:hover{
+    color: black;
+    background-color: white;
+}
+
+i {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    
+}
+
+#home{
+    border: 1px solid gray;
+    background-color: rgba(24, 24, 24, 0.5);
+    padding: 10px;
+    margin: 6px;
+    color: white;
+    transition:0.5s all linear;
+}
+
+#home:hover{
+    background-color: white;
+    color: black;
+}
+
+#search{
+    border: 1px solid gray;
+    background-color: rgba(24, 24, 24, 0.5);
+    padding: 10px;
+    margin: 6px;
+    color: white;
+    transition:0.5s all linear;
+}
+
+#search:hover{
+    background-color: white;
+    color: black;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.gardeningo{
+    align-items: center;
+    flex: 1 1 70%;
+    object-fit: contain;
+    margin: 10% 10% 0px 4%;
+}
+
+.motto{
+    flex: 1 1 70%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 5% 27% 0% 27%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    margin: 10% 5%;
+}
+.box1{
+    display: flex;
+    width: 100%;
+    background-color: gray;
+    height: 200px;
+    border: 1px solid white;
+    margin-right: 5%;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: url(termekek.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.box2{
+
+    display: flex;
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    margin-right: 5%;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background: url(faszi.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.box3{
+    display: flex;
+    width: 100%;
+    background-color: gray;
+    height: 200px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: url(kesztyu.jpg) no-repeat center center; 
+    background-size: cover;
+}
+
+}
+@media(max-width: 426px){
+
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: rgba(86, 86, 86, 0.5);
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.contact{
+    display: flex;
+    margin: auto;
+    flex: 0 1 500px;
+    /*border-right: 1px solid white;*/
+    height: 100%;
+}
+
+.tel{
+    display: none;
+    flex: 1 1 40%;
+    color: white;
+    height: 100%;
+    /*border-left: 1px solid white;*/
+    transition:0.5s all linear;
+}
+
+.mail{
+    display: flex;
+    flex: 1 1 60%;
+    color: white;
+    /*border-left: 1px solid white;*/
+    height: 100%;
+    transition:0.5s all linear;
+}
+
+.content{
+    align-self: center;
+    text-align: center;
+    margin: auto;
+}
+
+/*.tel:hover{
+    color: black;
+    background-color: white;
+}
+
+.mail:hover{
+    color: black;
+    background-color: white;
+}*/
+
+i {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    
+}
+
+#home{
+    border: 1px solid gray;
+    background-color: rgba(24, 24, 24, 0.5);
+    padding: 10px;
+    margin: 6px;
+    color: white;
+    transition:0.5s all linear;
+}
+
+#home:hover{
+    background-color: white;
+    color: black;
+}
+
+#search{
+    border: 1px solid gray;
+    background-color: rgba(24, 24, 24, 0.5);
+    padding: 10px;
+    margin: 6px;
+    color: white;
+    transition:0.5s all linear;
+}
+
+#search:hover{
+    background-color: white;
+    color: black;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+    
+.gardeningo{
+    align-items: center;
+    width: 90%;
+    object-fit: contain;
+    margin: 10% 10% 0px 4%;
+}
+    
+.motto{
+    width: 90%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    text-align: center;
+    color: white;
+    margin: 5% 5% 0% 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column; 
+}
+/*.box1{
+    display: flex;
+    width: 90%;
+    background-color: gray;
+    height: 150px;
+    border: 1px solid white;
+    margin: 5% 5% auto 5%;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: url(termekek.jpg) no-repeat center center; 
+    background-size: cover;
+}*/
+
+.box2{
+
+    display: flex;
+    width: 90%;
+    height: 150px;
+    border: 1px solid white;
+    color: white;
+    margin: 5% 5% auto 5%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background: url(faszi.jpg) no-repeat center center; 
+    background-size: cover;
+}
+
+.box3{
+    display: flex;
+    width: 90%;
+    background-color: gray;
+    height: 150px;
+    border: 1px solid white;
+    margin: 5% 5% 5% 5%;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: url(kesztyu.jpg) no-repeat center center; 
+    background-size: cover;
+}
+
+}
